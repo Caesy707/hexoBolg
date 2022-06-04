@@ -1,0 +1,14 @@
+.ArContent {
+  width: 56.75rem;
+  height: 77.875rem;
+  background: var(--themeColor);
+  padding: 2.5rem;
+  box-sizing: border-box;
+}
+.el-pagination {
+  justify-content: center;
+  margin: 3.125rem auto;
+}
+.el-timeline {
+  cursor: pointer;
+}

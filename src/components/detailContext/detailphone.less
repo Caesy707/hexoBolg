@@ -1,0 +1,133 @@
+.context{
+	// width: 56.75rem;
+	width: 100%;
+	min-height: 34.6875rem;
+	padding: 2.5rem;
+	box-sizing: border-box;
+	background: var(--themeColor);
+	margin-bottom: 0.75rem;
+	position: relative;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
+	.contextTitle{
+		width: 100%;
+		// height: 3.125rem;
+		font-size: 1.875rem;
+		font-weight: 600;
+		text-align: center;
+		line-height: 3.125rem;
+		color: var(--titleColor);
+	}
+	.contextTime{
+		width: 100%;
+		height: 3.875rem;
+		font-size:0.75rem;
+		color: var(--timeColor);
+		line-height: 1.875rem;
+		text-align: center;
+	}
+}
+
+
+#delete{
+	position: absolute;
+	right: 5rem;
+	bottom: 2.5rem;
+	font-size: 1.875rem;
+	cursor: pointer;
+}
+
+.articleReviews{
+	width: 100%;
+	min-height: 18.75rem;
+	background: var(--themeColor);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
+	margin-bottom: 3.125rem;
+	padding: 0.625rem;
+	box-sizing: border-box;
+	.description{
+		width: 100%;
+		height: 2.5rem;
+		border-bottom: solid 0.1875rem var(--textareaColor);
+		margin-bottom: 1.25rem;
+		div{
+			width: 4.6875rem;
+			height: 2.5rem;
+			line-height: 2.5rem;
+			font-size: 1rem;
+			border-bottom:solid 0.1875rem #000;
+		}
+	}
+	.textareaBox{
+		width: 100%;
+		height: 13rem;
+		position: relative;
+		textarea{
+			width: 100%;
+			height: 9.1rem;
+			resize: none;
+			outline: 0;
+			background: var(--textareaColor);
+			padding: 1.25rem;
+			box-sizing: border-box;
+			font-size: 1rem;
+			border: 0;
+			box-shadow: inset 0 3px 8px rgba(0,0,0,.24)
+		}
+		.submitText{
+			    width: 6.25rem;
+			    height: 3.125rem;
+			    background-color: #222222;
+			    color: var(--fontColor);
+			    font-size: 1rem;
+			    font-weight: 600;
+			    line-height: 3.125rem;
+			    text-align: center;
+			    margin: 0.3125rem auto;
+				float: right;
+			    border-radius: 1.25rem;
+			    cursor: pointer;
+		}
+	}
+	.reviewlist{
+		width: 100%;
+		.reviews{
+			width: 100%;
+			height:9.375rem;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			border-bottom: solid 0.1875rem var(--textareaColor);
+			.header{
+				width: 3.125rem;
+				height: 3.125rem;
+				border-radius: 50%;
+				img{
+					width: 100%;
+					height: 100%;
+					border-radius: 50%;
+				}
+			}
+			.userInfo{
+				width:23.375rem;
+				.user{
+					width: 10.875rem;
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					.username{
+						font-size: 1rem;
+						font-weight: 600;
+						color: var(--fontColor);
+					}
+					.time{
+						font-size: 0.625rem;
+						color: var(--fontColor);
+					}	
+				}
+				.review{
+					margin-top: 1.25rem;
+				}
+			}
+		}
+	}
+}

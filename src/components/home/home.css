@@ -1,0 +1,48 @@
+#home {
+  width: 56.75rem;
+}
+#home .contextall {
+  width: 100%;
+}
+#home .contextall .context {
+  position: relative;
+  width: 100%;
+  min-height: 34.6875rem;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  background: var(--themeColor);
+  margin-bottom: 0.75rem;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.06), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+#home .el-pagination {
+  justify-content: center;
+  margin: 3.125rem auto;
+}
+.context .contextTitle {
+  width: 100%;
+  font-size: 1.875rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 3.125rem;
+  cursor: pointer;
+  color: var(--titleColor);
+}
+.context .contextTitle:hover {
+  color: #222222;
+  text-decoration: underline;
+}
+.context .contextTime {
+  width: 100%;
+  height: 3.875rem;
+  font-size: 0.75rem;
+  color: var(--timeColor);
+  line-height: 1.875rem;
+  text-align: center;
+}
+#delete {
+  position: absolute;
+  right: 5rem;
+  bottom: 2.5rem;
+  font-size: 1.875rem;
+  cursor: pointer;
+}
